@@ -212,8 +212,6 @@
 }
 
 .kaufman{
-  display: flex;
-  flex-direction: column;
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
@@ -222,6 +220,7 @@
 }
 
 .section-title_theme_dark {
+  position: relative;
   margin: 90px auto 20px auto;
   z-index: 2;
 }
