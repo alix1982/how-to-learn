@@ -37,3 +37,7 @@
   right: 48px;
   color: #2f80ed;
 }
+
+.feynman__link:hover {
+  color: red;
+}

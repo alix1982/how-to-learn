@@ -47,12 +47,20 @@
   padding: 20px 0 16px 0;
 }
 
+.footer__column-links:hover {
+  color: red;
+}
+
 .footer__column-link {
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
   text-decoration: none;
   color: white;
+}
+
+.footer__column-link:hover {
+  color: red;
 }
 
 .footer__social-icon {

@@ -49,6 +49,10 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  color: red;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
