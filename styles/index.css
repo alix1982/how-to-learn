@@ -1,0 +1,42 @@
+@import url(../styles/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/footer/footer.css);
+@import url(../styles/rotation.css);
+
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.section-title {
+  width: 60%;
+  margin: 100px auto 20px auto;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  text-align: center;
+}
