@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="styles/index.css">  
+  <link rel="stylesheet" href="pages/index.css">  
 </head>
 
 <body>
@@ -15,10 +15,10 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &rarr;</a>
+        <a href="#" class="header__link" target="_blank">Узнать &rarr;</a>
       </p>
       <img src="blocks/images/images_sprint-1/header-image.png" class="header__main-illustration" alt="ученик в начале пути">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     
     <main class="content">
@@ -63,8 +63,7 @@
             <img class="cards__image" src="blocks/images/images_sprint-2/cards-competence.png" alt="практика5">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </li >
-          <li class="cards__item"></li>
+          </li >          
         </ul>
       </section>
       
@@ -72,8 +71,10 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/watch?v=arj7oStGLkU"></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/watch?v=5MgBikgcWnY"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+          <!--<iframe class="video__iframe" src="https://www.youtube.com/watch?v=arj7oStGLkU" frameborder="0"></iframe>		  
+          <iframe class="video__iframe" src="https://www.youtube.com/watch?v=5MgBikgcWnY" frameborder="0"></iframe>-->
         </div>
       </section>
       
@@ -89,7 +90,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        <a href="#" class="feynman__link" target="_blank">Подробнее &rarr;</a>
       </section>
       
       <section class="digits">
@@ -137,12 +138,12 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="blocks/images/images_sprint-2/khan-book.jpg" alt="Обложка книги">
-            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
+            <a class="khan__buy-link" href="#" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -192,31 +193,31 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
       
       <section class="resources">
         <h2 class="section-title section-title_theme_dark">Полезные ресурсы</h2>
         <p class="section-subtitle section-subtitle_theme_dark">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
-          <li class="resources__logo">
-            <a href="#">
-              <img src="blocks/images/images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас">
+          <li>
+            <a href="#" target="_blank">
+              <img class="resources__logo" src="blocks/images/images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас">
             </a>
           </li>
-          <li class="resources__logo">
-            <a href="#">
-              <img src="blocks/images/images_sprint-2/logo/resources-n1.svg" alt="Н+1">
+          <li>
+            <a href="#" target="_blank">
+              <img class="resources__logo" src="blocks/images/images_sprint-2/logo/resources-n1.svg" alt="Н+1">
             </a>
           </li>
-          <li class="resources__logo">
-            <a href="#">
-              <img src="blocks/images/images_sprint-2/logo/resources-strelka.svg" alt="Стрелка">
+          <li>
+            <a href="#" target="_blank">
+              <img class="resources__logo" src="blocks/images/images_sprint-2/logo/resources-strelka.svg" alt="Стрелка">
             </a>
           </li>
-          <li class="resources__logo">
-            <a href="#">
-              <img src="blocks/images/images_sprint-2/logo/resources-polka.svg" alt="Полка">
+          <li>
+            <a href="#" target="_blank">
+              <img class="resources__logo" src="blocks/images/images_sprint-2/logo/resources-polka.svg" alt="Полка">
             </a>
           </li>
         </ul>
@@ -240,15 +241,15 @@
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
           <nav class="footer__column-links">
-            <a href="#" class="footer__column-link">
+            <a href="#" class="footer__column-link" target="_blank">
               <img src="blocks/images/images_sprint-1/facebook_color_white.svg" class="footer__social-icon" alt="ф">
               Facebook
             </a>
-            <a href="#" class="footer__column-link">
+            <a href="#" class="footer__column-link" target="_blank">
               <img src="blocks/images/images_sprint-1/vk_color_white.svg" class="footer__social-icon" alt="вк">
               Вконтакте
             </a>
-            <a href="#" class="footer__column-link">
+            <a href="#" class="footer__column-link" target="_blank">
               <img src="blocks/images/images_sprint-1/instagram_color_white.svg" class="footer__social-icon" alt="и">
               Instagram
             </a>

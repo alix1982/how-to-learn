@@ -1,19 +1,6 @@
+@import url(../resources/__logo-zone/resources__logo-zone.css);
+@import url(../resources/__logo/resources__logo.css);
+
 .resources__logo-zone {
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 80px auto 217px auto;
-}
-
-.resources__logo {
   list-style: none;
-  width: 270px;
-  height: 38px;
-  text-align: center;
-}
-
-.resources__logo:hover {
-  /*opacity: 0.5;*/
-  box-shadow: 10px 10px 5px #808080;
 }

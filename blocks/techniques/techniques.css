@@ -3,39 +3,11 @@
   margin: 100px auto 0 auto;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 920px;
-  margin: auto;
-  padding: 0;
-}
 
-.cards__item {
-  width: 240px;
-  list-style: none;
-  margin-top: 60px;  
-}
 
-.cards__image {
-  width: 160px;
-  height: 160px;
-  margin: 0 40px;
-  border-radius: 50%;  
-}
 
-.cards__title {
-  margin: 43 px 0 16 px 0;
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: bold;
-  text-align: center;
-}
 
-.cards__description {
-  text-align: center;
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: normal;
-}
+
+
+
+
